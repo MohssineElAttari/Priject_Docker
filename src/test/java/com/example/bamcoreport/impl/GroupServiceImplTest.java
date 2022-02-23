@@ -54,10 +54,10 @@ class GroupServiceImplTest {
 
     @Test
     void createGroup() {
-//        LocalDateTime now = LocalDateTime.now();
-//        Group group1 = new Group(1L,"group1","group1","group1","group1",new User(),now,now);
-//        when(groupService.createGroup(group1)).thenReturn(group1);
-//        assertThat(groupService.createGroup(group1).getName()).isEqualTo("group1");
+        LocalDateTime now = LocalDateTime.now();
+        Group group1 = new Group(1L,"group1","group1","group1","group1",new User(),now,now);
+        when(groupService.createGroup(group1)).thenReturn(group1);
+        assertThat(groupService.createGroup(group1).getName()).isEqualTo("group1");
     }
 
     @Test
