@@ -40,11 +40,11 @@ class UserServiceImplTest {
 //        list.add(userDto3);
 //        list.add(userDto4);
 
-        List<User> user = userRepository.findAll();
-
-        Assertions.assertThat(user.size()).isGreaterThan(0);
-
-        List<User> expected = userService.getAllUsers();
+//        List<User> user = userRepository.findAll();
+//
+//        Assertions.assertThat(user.size()).isGreaterThan(0);
+//
+//        List<User> expected = userService.getAllUsers();
 
 
         }
